@@ -1,0 +1,53 @@
+#game-window {
+    width: 60%;
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    color: rgb(0, 44, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+#board {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.box {
+    min-width: 100px;
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+}
+
+.box:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.letter {
+    color: white;
+    font-size: 3rem;
+
+}
+.btn {
+    padding: 12px 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 44, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.98;
+    transform: scale(0.98);
+}
