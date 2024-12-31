@@ -1,12 +1,21 @@
+body {
+    background-color:beige;
+}
+
 #game-window {
-    width: 60%;
+    width: 70vw;
+    padding: 20px;
     max-width: 500px;
-    margin-inline: auto;
+    margin: 80px auto;
     text-align: center;
     display: grid;
     gap: 20px;
+    justify-items: center;
     color: rgb(0, 44, 0);
+    background-color: antiquewhite;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border: 10px solid rgb(0, 44, 0);
+    border-radius: 20px;
 }
 
 #board {
@@ -17,11 +26,11 @@
 }
 
 .box {
-    min-width: 100px;
-    max-width: 250px;
+    min-width: 90px;
+    max-width: 120px;
     aspect-ratio: 1/1;
     height: 100%;
-    background-color: red;
+    background-color:darkgoldenrod;
     border-radius: 10px;
     cursor: pointer;
     display: grid;
@@ -35,7 +44,8 @@
 
 .letter {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bolder;
 
 }
 .btn {
